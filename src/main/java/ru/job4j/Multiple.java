@@ -5,5 +5,6 @@ public class Multiple {
         for (int i = 1; i < 10; i++) {
             System.out.println("1 * 9 = " + i);
         }
+
     }
 }
