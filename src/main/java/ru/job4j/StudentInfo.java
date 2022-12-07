@@ -2,7 +2,10 @@ package ru.job4j;
 
 public class StudentInfo {
     public static void main(String[] args) {
-        System.out.println("Yaroslav");
-        System.out.println("06.01.2019");
+        short s = 1500;
+        char c = (char) s;
+        double d = c;
+        int a = 'a';
+        System.out.println(a);
     }
 }
