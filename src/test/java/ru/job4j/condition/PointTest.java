@@ -22,7 +22,7 @@ class PointTest {
 
     @Test
     public void when101to10then8dot94() {
-        double expected = 8.94;
+        double expected = 9.05;
         int x1 = 10;
         int y1 = 1;
         int x2 = 1;
@@ -35,7 +35,7 @@ class PointTest {
 
     @Test
     public void when101to50then4dot89() {
-        double expected = 4.89;
+        double expected = 5.09;
         int x1 = 10;
         int y1 = 1;
         int x2 = 5;
@@ -48,7 +48,7 @@ class PointTest {
 
     @Test
     public void when82to124then3dot46() {
-        double expected = 3.46;
+        double expected = 4.47;
         int x1 = 8;
         int y1 = 2;
         int x2 = 12;
