@@ -44,16 +44,10 @@ class PointTest {
     }
 
     @Test
-    public void when82to124to98then3dot46() {
+    public void when829to1248then4dot58() {
         double expected = 4.58;
-        int x1 = 8;
-        int y1 = 2;
-        int x2 = 12;
-        int y2 = 4;
-        int z1 = 9;
-        int z2 = 8;
-        Point a = new Point(x1, y1, z1);
-        Point b = new Point(x2, y2, z2);
+        Point a = new Point(8, 2, 9);
+        Point b = new Point(12, 4, 8);
         double dist = a.distance3d(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
