@@ -10,51 +10,35 @@ class PointTest {
     @Test
     public void when00to20then2() {
         double expected = 2;
-        int x1 = 0;
-        int y1 = 0;
-        int x2 = 2;
-        int y2 = 0;
-        Point a = new Point(x1, y1);
-        Point b = new Point(x2, y2);
+        Point a = new Point(0, 0);
+        Point b = new Point(2, 0);
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
 
     @Test
-    public void when101to10then8dot94() {
+    public void when101to10then9dot05() {
         double expected = 9.05;
-        int x1 = 10;
-        int y1 = 1;
-        int x2 = 1;
-        int y2 = 0;
-        Point a = new Point(x1, y1);
-        Point b = new Point(x2, y2);
+        Point a = new Point(10, 1);
+        Point b = new Point(1, 0);
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
 
     @Test
-    public void when101to50then4dot89() {
+    public void when101to50then5dot09() {
         double expected = 5.09;
-        int x1 = 10;
-        int y1 = 1;
-        int x2 = 5;
-        int y2 = 0;
-        Point a = new Point(x1, y1);
-        Point b = new Point(x2, y2);
+        Point a = new Point(10, 1);
+        Point b = new Point(5, 0);
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
 
     @Test
-    public void when82to124then3dot46() {
+    public void when82to124then4dot47() {
         double expected = 4.47;
-        int x1 = 8;
-        int y1 = 2;
-        int x2 = 12;
-        int y2 = 4;
-        Point a = new Point(x1, y1);
-        Point b = new Point(x2, y2);
+        Point a = new Point(8, 2);
+        Point b = new Point(12, 4);
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
